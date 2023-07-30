@@ -1,0 +1,4 @@
+${AnsiColor.BRIGHT_GREEN}
+Project Version: development
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+${AnsiColor.BLACK}

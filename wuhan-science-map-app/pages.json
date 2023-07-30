@@ -1,0 +1,195 @@
+{
+    "pages": [ 
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "江城科普一张图"
+            }
+        },
+        {
+            "path": "pages/wonderful-course/wonderful-course",
+            "style": {
+                "navigationBarTitleText": "精彩课程",
+                "enablePullDownRefresh": false
+            }
+
+        },
+        {
+            "path": "pages/news/news",
+            "style": {
+                "navigationBarTitleText": "热点资讯",
+                "enablePullDownRefresh": true
+            }
+
+        },
+        {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/news-detail/news-detail",
+            "style": {
+                "navigationBarTitleText": "资讯详情",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/base-detail/base-detail",
+            "style": {
+                "navigationBarTitleText": "基地详情",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/course-detail/course-detail",
+            "style": {
+                "navigationBarTitleText": "课程详情",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/lecturer-detail/lecturer-detail",
+            "style": {
+                "navigationBarTitleText": "讲师介绍",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/hall-detail/hall-detail",
+            "style": {
+                "navigationBarTitleText": "展厅详情",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/activity-detail/activity-detail",
+            "style": {
+                "navigationBarTitleText": "活动详情",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/user-register/user-register",
+            "style": {
+                "navigationBarTitleText": "用户注册",
+                "enablePullDownRefresh": false
+            }
+        }
+
+        , {
+            "path": "pages/user-info/user-info",
+            "style": {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/setting/setting",
+            "style": {
+                "navigationBarTitleText": "用户设置",
+                "enablePullDownRefresh": false
+            }
+
+        }, {
+            "path": "pages/user-course/user-course",
+            "style": {
+                "navigationBarTitleText": "我的课程",
+                "enablePullDownRefresh": true
+            }
+
+        }, {
+            "path": "pages/course-upload-result/course-upload-result",
+            "style": {
+                "navigationBarTitleText": "成果展示",
+                "enablePullDownRefresh": true
+            }
+
+        }
+        ,{
+            "path" : "pages/user-web-view/user-web-view",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "外部网址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhihuiTrip/zhihuiTrip",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧行",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhihuiTrip-item/zhihuiTrip-item",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧行路线",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/zhihuiTrip-item-detail/zhihuiTrip-item-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/commit-info/commit-info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报名信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "江城科普一张图",
+        "navigationBarBackgroundColor": "#4fa0d7",
+        "backgroundColor": "#4fa0d7"
+    },
+    "uniIdRouter": {},
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#4fa0d7",
+        "fontSize": "20px",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "科普基地",
+                "iconPath": "static/tabbar/科普基地_normal.png",
+                "selectedIconPath": "static/tabbar/科普基地_active.png"
+            },
+            {
+                "pagePath": "pages/wonderful-course/wonderful-course",
+                "text": "精彩课程",
+                "iconPath": "static/tabbar/精彩课程_normal.png",
+                "selectedIconPath": "static/tabbar/精彩课程_active.png"
+            },
+            {
+                "pagePath": "pages/news/news",
+                "text": "热点资讯",
+                "iconPath": "static/tabbar/热点资讯_normal.png",
+                "selectedIconPath": "static/tabbar/热点资讯_active.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "个人中心",
+                "iconPath": "static/tabbar/个人中心_normal.png",
+                "selectedIconPath": "static/tabbar/个人中心_active.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+version: '3'
+services:
+  service-name:
+    image: image-name:1.0.0-alpha
+    ports:
+      - "*:8000"
+    volumes: 
+    - ./logs/:/server/logs/
+  service-name-nginx:
+    image: nginx:latest
+    ports:
+      - "*:443"
+    volumes:
+      - ./ssl/:/usr/share/nginx/ssl/
+      - ./static/:/usr/share/nginx/static/
+      - ./logs/nginx/:/etc/nginx/logs/
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    privileged: true

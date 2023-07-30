@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="wuhan.science.server.mapper.RegionMapper">
+    <resultMap id="getSelf" type="wuhan.science.server.view.common.Region">
+        <result column="code" property="code"/>
+        <result column="region_name" property="regionName"/>
+        <result column="polygon_geometry" property="polygonGeometry" javaType="String"/>
+        <result column="parent_code" property="parentCode"/>
+        <collection property="children" select="listRegionAndChildren" column="code"/>
+    </resultMap>
+    <select id="listRegionAndChildren" resultMap="getSelf">
+        select code, region_name, parent_code, polygon_geometry from t_region where deleted = false AND parent_code=#{p_code}
+        ORDER BY code
+    </select>
+</mapper>
